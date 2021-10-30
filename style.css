@@ -1,0 +1,48 @@
+body{
+    background-image: url(https://storge.pic2.me/c/1360x800/267/52c1edb5c6bfd.jpg);
+}
+*{
+    margin: 0 auto;
+}
+form{
+    border: 2px solid black;
+    background-color: rgba(74, 70, 80, 0.76);
+    width: 500px;
+    height: 600px auto;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+form div{
+    width: 200px;
+    margin: 5px auto;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+}
+.radio p{
+    margin: 0;
+    padding: 0;
+}
+.name_place::placeholder{
+    text-align: center;
+}
+.Email_place::placeholder{
+    text-align: center;
+}
+.Password_place::placeholder{
+    text-align: center;
+}
+textarea{
+    width: 201px;
+    height: 37px;
+
+}
+.button{
+    width: 200px;
+    display: flex;
+}
+.user_text::placeholder{
+    text-align: center;
+}
